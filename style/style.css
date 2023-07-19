@@ -162,7 +162,29 @@ a {
     border-radius: 15px;
     border: 20px;
 }
-
+.footer-1 {
+    display: inline-flex;
+    margin-left: 600px;
+    padding-top: 50px;
+    gap: 30px;
+}
+.footer-details{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 150px;
+}
+.footer-tag{
+    display: flex;
+   justify-content: space-between;
+   margin: 10px 200px;
+   background-color: #514a62;
+}
+.footer-items{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin: 50px 400px;
+}
 
 @media and (max-width: 576px) {
     .nav-style {
