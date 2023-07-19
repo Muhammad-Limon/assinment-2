@@ -104,6 +104,17 @@ a {
     -webkit-text-fill-color: transparent;
 }
 
+.main-title {
+    text-align: center;
+}
+
+.main-title-style {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 @media and (max-width: 576px) {
     .nav-style {
         flex-direction: column;
@@ -133,7 +144,8 @@ a {
         padding: 5px;
         justify-content: center;
     }
-    .section-img{
+
+    .section-img {
         border-top: 200px;
         padding-top: 500px;
     }
